@@ -3,3 +3,91 @@
   margin: 0;
   padding: 0;
 }
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.container{
+  display: inline-block;
+}
+.card {
+  width: 319.995px;
+  height: 459.156px;
+  margin-left: 362px;
+  margin-top: 100px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0.796192px 2.38858px -0.625px,
+    rgba(0, 0, 0, 0.05) 0px 2.41451px 7.24352px -1.25px,
+    rgba(0, 0, 0, 0.05) 0px 6.38265px 19.148px -1.875px,
+    rgba(0, 0, 0, 0.05) 0px 20px 60px -2.5px;
+}
+.card-thumbnail-wrapper {
+  margin-bottom: 30px;
+}
+.card-thumbnail {
+  height: 240px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  overflow-x: auto;
+  overflow-y: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card-title {
+  display: block;
+  width: 260px;
+  height: 28px;
+  color: #001122;
+  font-size: 20px;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+.card-about {
+  display: block;
+  width: 260px;
+  height: 51px;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 25.6px;
+  text-align: left;
+  color: #666666;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  font-weight: 500;
+  letter-spacing: var(--framer-letter-spacing, 0);
+  /* word-spacing: 4px; */
+  text-decoration-style: solid;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.read-more-button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 102px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #222222;
+  font-size: 12px;
+  margin-left: 30px;
+  box-shadow: 0 0.7065919983928324px 0.7065919983928324px -0.625px #00000026,
+    0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025,
+    0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023,
+    0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020,
+    0 13.646761411524492px 13.646761411524492px -3.125px #0000001b,
+    0 30px 30px -3.75px #0000000d;
+}
+.read-more-text {
+  display: block;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  line-height: 16.8px;
+}
