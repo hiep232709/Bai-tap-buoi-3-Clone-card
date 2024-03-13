@@ -5,6 +5,8 @@
 }
 img {
   max-width: 100%;
+  width: 100%; 
+  /* để ưithd 100% để ảnh có thể tràn ra cả cái box */
   vertical-align: middle;
 }
 .container {
@@ -24,15 +26,16 @@ img {
 }
 .card-thumbnail-wrapper {
   margin-bottom: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .card-thumbnail {
   height: 240px;
   object-fit: cover;
   object-position: 50% 50%;
-  overflow-x: auto;
-  overflow-y: auto;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  overflow: hidden;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
 }
 .card-title {
   display: block;
@@ -51,7 +54,6 @@ img {
 .card-about {
   display: block;
   width: 260px;
-  height: 51px;
   font-size: 16px;
   font-style: normal;
   line-height: 25.6px;
